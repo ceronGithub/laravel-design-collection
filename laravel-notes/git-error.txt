@@ -11,3 +11,10 @@ To enable extensions, verify that they are enabled in your .ini files:
     - C:\Program Files\php-8.2.15\php.ini
 HOW TO FIX :
 goto, laragon php.ini, uncomment extension_dir.
+
+
+ERROR :
+git push error
+HOW TO FIX : 
+git config --global user.email "developerceron@gmail.com"
+git config --global user.name "ceronGithub"
