@@ -1,0 +1,50 @@
+git bash on folder 
+> git init 
+> git remote add origin url
+//> git checkout -b develop (create new branch) / to change branch (git checkout (branch name))
+
+uploading to git website
+> goto folder > git bash there
+> git remote add origin url
+> git checkout -b develop (create new branch) / to change branch (git checkout (branch name))
+> git add .
+> git status  
+> git commit -m "name the changes"
+> git config --global user.email "developerceron@gmail.com"
+> git config --global user.name "ceronGithub"
+> git status
+> git push -u origin branch name // for new (git push -u origin master)
+
+update:
+> goto folder wamp(WWW folder)/ xampp(HTDOC folder) 
+> git bash there
+> git push -u origin branch name
+
+get project from git website / or update your project copy
+> goto htdocs(Xampp) / www(Wamp) / desktop
+> git bash there 
+> git clone url
+> git pull origin branch name or git checkout branch name
+
+open the imported project from git website to pc
+> git clone url
+> goto project folder
+> composer install
+> code .
+
+
+
+// git hub
+======or create a new repository on the command line====
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ceronGithub/sample-login-authentication.git
+git push -u origin main
+
+=====or push an existing repository from the command line====
+git remote add origin https://github.com/ceronGithub/sample-login-authentication.git
+git branch -M main
+git push -u origin main
+

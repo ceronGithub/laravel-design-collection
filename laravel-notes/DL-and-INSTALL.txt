@@ -1,0 +1,12 @@
+DOWNLOAD:
+PHP - https://www.php.net/downloads
+VISUAL STUDIO - https://visualstudio.microsoft.com/downloads/
+VISUAL STUDIO CODE - https://code.visualstudio.com/
+MySQL - https://dev.mysql.com/downloads/installer/
+nodejs - https://nodejs.org/en
+composer - https://getcomposer.org/download/
+git - https://git-scm.com/
+
+INSTALL ALL IS A MUST!!!
+
+extract php, copy and paste, url php directory on variables. and on programs.

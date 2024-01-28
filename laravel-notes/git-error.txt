@@ -1,0 +1,13 @@
+ERROR :
+git: 'composer' is not a git command.
+bash: composer: command not found
+HOW TO FIX :
+install composer-setup.exe
+link here : https://getcomposer.org/download/
+
+
+ERROR :
+To enable extensions, verify that they are enabled in your .ini files:
+    - C:\Program Files\php-8.2.15\php.ini
+HOW TO FIX :
+goto, laragon php.ini, uncomment extension_dir.
