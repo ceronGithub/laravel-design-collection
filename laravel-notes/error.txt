@@ -18,3 +18,15 @@ git push error
 HOW TO FIX : 
 git config --global user.email "developerceron@gmail.com"
 git config --global user.name "ceronGithub"
+
+
+ERROR :
+vendor\laravel\framework\src\Illuminate\Database\Connectors\Connector.php:65
+HOW TO FIX :
+check .env / edit DB information / save / re-run php artisan migrate
+
+
+ERROR :
+Run npm run dev in your terminal and refresh the page.
+HOW TO FIX:
+npm install

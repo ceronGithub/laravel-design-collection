@@ -50,7 +50,7 @@
 
 
     <div class="div-parent">        
-        @include('swifer-one');         
+        @include('swifer.swifer-one');         
     </div>
 
     </body>      
