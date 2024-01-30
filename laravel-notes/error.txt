@@ -30,3 +30,8 @@ ERROR :
 Run npm run dev in your terminal and refresh the page.
 HOW TO FIX:
 npm install
+
+ERROR : 
+Route [welcome] not defined.
+FIX: 
+on route / web / put ->name on welcome.

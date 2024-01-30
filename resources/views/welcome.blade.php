@@ -17,7 +17,7 @@
 
             .div-parent{
                 background: gray;
-                height: 85%;
+                height: 90%;
                 width: auto;
                 /* position: relative; */
             }
@@ -48,9 +48,16 @@
         @endif            
     </div>
 
-
     <div class="div-parent">        
-        @include('swifer.swifer-one');         
+        @include('swifer.swifer-1');         
+    </div>
+    <hr>
+    <div class="div-parent">
+        @include('swifer.swifer-2');
+    </div>
+    <hr>
+    <div class="div-parent">
+        @include('swifer.swifer-3');
     </div>
 
     </body>      

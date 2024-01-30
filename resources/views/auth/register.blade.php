@@ -1,4 +1,5 @@
 <x-guest-layout>
+    <a href="{{ route('welcome') }}">return to Welcome Page</a>
     <form method="POST" action="{{ route('register') }}">
         @csrf
 

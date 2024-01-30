@@ -1,4 +1,5 @@
 <x-guest-layout>
+<a href="{{ route('welcome') }}">Return to Welcome Page</a>
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
