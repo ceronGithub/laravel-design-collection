@@ -67,9 +67,9 @@
         <div class="swiper-slide">
 
             <div>
-                <div class="row" style="margin-bottom: 5px;">
+                <div class="row" style="margin-bottom: 5px; margin-top: 80px;">
                     <div class="col" style="width: 150%;">
-                        <div class="card mb-3" style="max-width: 540px;">
+                        <div class="card mb-3" style="max-width: 630px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <img src="https://source.unsplash.com/random/500x500?sig=201"/>
@@ -86,7 +86,7 @@
                     </div>
 
                     <div class="col">
-                        <div class="card mb-3" style="max-width: 540px;">
+                        <div class="card mb-3" style="max-width: 630px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
                                 <img src="https://source.unsplash.com/random/500x500?sig=202"/>
@@ -105,7 +105,7 @@
                 
                 <div class="row">
                     <div class="col">
-                        <div class="card mb-3" style="max-width: 540px;">
+                        <div class="card mb-5" style="max-width: 630px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
                                 <img src="https://source.unsplash.com/random/500x500?sig=203"/>
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card mb-3" style="max-width: 540px;">
+                        <div class="card mb-3" style="max-width: 630px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
                                 <img src="https://source.unsplash.com/random/500x500?sig=204"/>
@@ -157,6 +157,12 @@
     <script>
         var swiper = new Swiper(".mySwiper", {
         direction: "vertical",
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
         pagination: {
             el: ".swiper-pagination",
             clickable: true,

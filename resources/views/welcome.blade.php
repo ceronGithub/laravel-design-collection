@@ -16,7 +16,7 @@
 
 
             .div-parent{
-                background: gray;
+                /* background: red; */
                 height: 90%;
                 width: auto;
                 /* position: relative; */

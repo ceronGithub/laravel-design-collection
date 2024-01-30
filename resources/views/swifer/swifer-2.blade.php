@@ -65,149 +65,192 @@
 
     <!-- Swiper -->
     <div class="swiper mySwiperTwo">
-        <div class="swiper-wrapper">
-            
-        <div class="swiper-slide">
-            <div class="div-seperator">
-                <div class="card" style="width: 20rem;">
-                    <img src="https://source.unsplash.com/random/500x500?sig=101" alt="1"/>
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="swiper-wrapper">     
+            <div class="swiper-slide">
+                <div class="col container" style="width: 100%;">
+                    <div style="width: 75%; margin-left: 5%;">
+                        <img src="https://source.unsplash.com/random/500x500?sig=110" alt="1"/>
                     </div>
                 </div>
-            </div>
-            <div class="div-seperator">
-                <div class="card" style="width: 20rem;">
-                    <img src="https://source.unsplash.com/random/500x500?sig=102" alt="2"/>
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="div-seperator">
-                <div class="card" style="width: 20rem;">
-                    <img src="https://source.unsplash.com/random/500x500?sig=103" alt="2"/>
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="div-seperator">
-                <div class="card" style="width: 20rem;">
-                    <img src="https://source.unsplash.com/random/500x500?sig=104" alt="2"/>
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>                               
-        </div>
-
-        <div class="swiper-slide">
-
-            <div>
-                <div class="row" style="margin-top: -10px; margin-bottom: 30px;">
-                    <div class="col">
-                        <div class="card" style="max-width: 430px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                <img src="https://source.unsplash.com/random/200x200?sig=105"/>
+                <div class="col" style="margin-left: -10%;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="card mb-3" style="max-width: 700px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                    <img src="https://source.unsplash.com/random/200x200?sig=111"/>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card mb-3" style="max-width: 700px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="https://source.unsplash.com/random/200x200?sig=112"/>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div> 
+            </div>   
+
+            <div class="swiper-slide">
+                <div class="div-seperator">
+                    <div class="card" style="width: 20rem;">
+                        <img src="https://source.unsplash.com/random/500x500?sig=101" alt="1"/>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-seperator">
+                    <div class="card" style="width: 20rem;">
+                        <img src="https://source.unsplash.com/random/500x500?sig=102" alt="2"/>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-seperator">
+                    <div class="card" style="width: 20rem;">
+                        <img src="https://source.unsplash.com/random/500x500?sig=103" alt="2"/>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-seperator">
+                    <div class="card" style="width: 20rem;">
+                        <img src="https://source.unsplash.com/random/500x500?sig=104" alt="2"/>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>                               
+            </div>
+
+            <div class="swiper-slide">
+                <div>
+                    <div class="row" style="margin-top: -10px; margin-bottom: 30px;">
+                        <div class="col">
+                            <div class="card" style="max-width: 430px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                    <img src="https://source.unsplash.com/random/200x200?sig=105"/>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="max-width: 430px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                    <img src="https://source.unsplash.com/random/500x500?sig=106" alt="2"/>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="max-width: 430px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                    <img src="https://source.unsplash.com/random/500x500?sig=107" alt="2"/>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="max-width: 430px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                <img src="https://source.unsplash.com/random/500x500?sig=106" alt="2"/>
-                                </div>
-                                <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="max-width: 430px;">
-                            <div class="row g-0">
-                                <div class="col-md-4">
-                                <img src="https://source.unsplash.com/random/500x500?sig=107" alt="2"/>
-                                </div>
-                                <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="max-width: 660px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                    <img src="https://source.unsplash.com/random/500x500?sig=108" alt="2"/>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
                         <div class="card" style="max-width: 660px;">
                             <div class="row g-0">
-                                <div class="col-md-4">
-                                <img src="https://source.unsplash.com/random/500x500?sig=108" alt="2"/>
-                                </div>
-                                <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                    <div class="card" style="max-width: 660px;">
-                        <div class="row g-0">
-                                <div class="col-md-4">
-                                <img src="https://source.unsplash.com/random/500x500?sig=109" alt="2"/>
-                                </div>
-                                <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                </div>
+                                    <div class="col-md-4">
+                                    <img src="https://source.unsplash.com/random/500x500?sig=109" alt="2"/>
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
+
+            <div class="swiper-slide">Last page</div>        
         </div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
-        </div>
-        <div class="swiper-pagination"></div>
+        <div class="swiper-pagination"></div>        
     </div>
 
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiperTwo", {
             spaceBetween: 30,
+            // centeredSlides: true,
+            // autoplay: {
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            // },
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
