@@ -65,7 +65,11 @@
 
     <!-- Swiper -->
     <div class="swiper mySwiperTwo">
-        <div class="swiper-wrapper">     
+        <div class="swiper-wrapper">    
+            <div class="swiper-slide">
+            <a href="{{ route('card-1') }}">Card design one</a>
+            </div>
+
             <div class="swiper-slide">
                 <div class="col container" style="width: 100%;">
                     <div style="width: 75%; margin-left: 5%;">
@@ -237,7 +241,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide">Last page</div>        
+            <div class="swiper-slide">Last page</div>     
         </div>
         <div class="swiper-pagination"></div>        
     </div>
@@ -246,11 +250,11 @@
     <script>
         var swiper = new Swiper(".mySwiperTwo", {
             spaceBetween: 30,
-            centeredSlides: true,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
+            // centeredSlides: true,
+            // autoplay: {
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            // },
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,

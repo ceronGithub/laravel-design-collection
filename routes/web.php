@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome'); //Route [welcome] not defined.
 
+Route::get('/card-design-one', function () {
+    return view('cards.card-1');
+})->name('card-1');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
