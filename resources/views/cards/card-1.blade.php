@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ asset('css/card-one/card-one-css.css') }}">
 </head>
 <body>
+    <a href="{{ route('welcome') }}" style="margin-top: -300px;">Card design one</a>
     <div class="card-one" style="top: 100px;">
         <div class="card-one-lines"></div>
         <div class="card-one-imgBx">

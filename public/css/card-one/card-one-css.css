@@ -6,23 +6,27 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/* 
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #333;     
-}
+} */
 .card-one{
     position: relative;
-    width: 350px;
-    height: 190px;
+    /* 350 */
+    width: 380px;
+    /* 190 */
+    height: 210px;
     background: #fff;
     transition: 0.5s;
 }
 /* change card size */
 .card-one:hover{
-    height: 330px;
+    /* 330 */
+    height: 400px;
     /* width: 530px; */
 }
 .card-one .card-one-lines{
@@ -60,11 +64,12 @@ body{
 
 .card-one .card-one-imgBx{
     position: absolute;
-    top: -30%;
+    /* 30% */
+    top: -25%;
     left: 50%;
     transform: translateX(-50%);
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     background: #000;
     transition: 0.5s;
     overflow: hidden;        
@@ -129,7 +134,9 @@ body{
     text-align: center;
     width: 100%;
     transition: 0.5s;
-    transform: translateY(135px);
+
+    /* 135px */
+    transform: translateY(185px);
 }
 
 .card-one:hover .card-one-content .card-one-details{

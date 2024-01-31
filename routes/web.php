@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome'); //Route [welcome] not defined.
 
+// card blades
 Route::get('/card-design-one', function () {
     return view('cards.card-1');
 })->name('card-1');
