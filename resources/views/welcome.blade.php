@@ -49,15 +49,15 @@
     </div>
 
     <div class="div-parent">        
-        @include('swifer.swifer-1');       
+        @include('swifer.swifer-1')     
     </div>
     <hr>
     <div class="div-parent">
-        @include('swifer.swifer-2');
+        @include('swifer.swifer-2')
     </div>
     <hr>
     <div class="div-parent">
-        @include('swifer.swifer-3');
+        @include('swifer.swifer-3')
     </div>
 
     </body>      

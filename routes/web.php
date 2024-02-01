@@ -23,6 +23,10 @@ Route::get('/card-design-one', function () {
     return view('cards.card-1');
 })->name('card-1');
 
+Route::get('/card-design-two', function () {
+    return view('cards.card-2');
+})->name('card-2');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

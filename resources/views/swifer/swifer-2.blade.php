@@ -7,8 +7,11 @@
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <!-- Calls the public css -->
-    <link rel="stylesheet" href="{{ asset('css/card-one/card-one-css.css') }}">    
+    <!-- <link rel="stylesheet" href="{{ asset('css/cards-css/card-one-css.css') }}">  -->
+    <!-- <link rel="stylesheet" href="{{ asset('css/cards-css/card-two-css.css') }}"> -->
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -67,33 +70,23 @@
 
     <!-- Swiper -->
     <div class="swiper mySwiperTwo">
-        <div class="swiper-wrapper">    
-            <div class="swiper-slide">
-            <a href="{{ route('card-1') }}">Card design one</a>
-                <div>
-                    <div class="col">
-                    <div class="card-one" style="bottom: -50px;">
-                        <div class="card-one-lines"></div>
-                            <div class="card-one-imgBx">
-                                <img src="https://source.unsplash.com/random/500x500?sig=201" alt="">
-                            </div>
-                            <div class="card-one-content">
-                                <div class="card-one-details">
-                                    <h2>Ceron Matthew P. Calsena <br><span>Full-Stack web & dekstop developer</span></h2>
-                                    <div class="card-one-data">
-                                        <h3>Post<br><span>0</span></h3>
-                                        <h3>followes<br><span>0</span></h3>
-                                        <h3>follows<br><span>0</span></h3>
-                                    </div>
-                                    <div class="card-one-actionBtn">
-                                        <button>Contact</button>
-                                        <button>Message</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div class="swiper-wrapper">            
+            <div class="swiper-slide">            
+                <div class="col">
+                    <a href="{{ route('card-1') }}">Card design one</a>                     
+                </div>
+                <div class="col">
+                    <div class="header">
+
                     </div>
-                </div>            
+                    <div class="content">
+
+                    </div>
+                    <a href="{{ route('card-2') }}">Card design two</a>
+                </div>
+                <div class="col">
+                    card 3
+                </div>
             </div>
 
             <div class="swiper-slide">
