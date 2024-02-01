@@ -6,11 +6,70 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-/* 
+
 body{
     display:flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #333;
-} */
+}
+.container{
+    position: relative;
+    display: flex;
+    padding: 80px 40px;
+    justify-content: center;
+    align-items: wrap;
+    gap: 80px;
+}
+.card-two{
+    position: relative;
+    width: 350px;
+    height: 180px;
+    background: #333;
+    transition: 0.5s;
+}
+.card-two:hover{
+    height: 450px;
+}
+
+.card-two .card-two-lines{
+    position: absolute;
+    inset: 0;
+    background: #000;
+    overflow: hidden;
+}
+
+.card-two .card-two-lines::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 200px;
+    background:
+    linear-gradient(transparent, #832ebd, #832ebd, #832ebd, transparent);  
+    background-repeat: no-repeat;  
+    animation: animate 5s linear infinite;
+    animation-play-state: paused;
+}
+
+.card-two:hover .card-two-lines::before{
+    animation-play-state: running;
+}
+
+@keyframes animate{
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.card-two .card-two-lines::after{
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #292929;
+}

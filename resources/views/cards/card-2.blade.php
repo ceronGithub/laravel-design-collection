@@ -16,5 +16,14 @@
     <a href="./whole-project/project-two/project.html" Download>Download -> HTML file (click here)</a>    
 </div>
 </body>
-
+    <div class="container">
+        <div class="card-two">     
+        <div class="card-two-lines"></div>            
+            <div class="card-two-imgBx">
+                <!-- <img src="https://source.unsplash.com/random/500x500?sig=1" alt=""> -->
+            </div>
+            <div class="card-two-content">
+            </div>            
+        </div>
+    </div>
 </html>
