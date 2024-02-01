@@ -12,6 +12,9 @@
 <body>
 <div class="navbar">
     <a href="{{ route('welcome') }}">Return Page</a>
+    <a href="./css/cards-css/card-two-css.css" Download>Download -> css file (click here)</a>
+    <a href="./whole-project/project-two/project.html" Download>Download -> HTML file (click here)</a>    
 </div>
 </body>
+
 </html>
